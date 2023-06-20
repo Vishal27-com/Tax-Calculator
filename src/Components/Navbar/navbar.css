@@ -1,0 +1,16 @@
+.nav-cont{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(214, 212, 212);
+}
+.link-box{
+    display: flex;
+    gap: 20px;
+}
+.link-box>h4:hover{
+ cursor: pointer;
+ color: red;
+ text-decoration: underline;
+}
