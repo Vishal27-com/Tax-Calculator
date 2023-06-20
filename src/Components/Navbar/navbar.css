@@ -14,3 +14,31 @@
  color: red;
  text-decoration: underline;
 }
+a{
+    text-decoration: none;
+}
+.mob-nav{
+ display: none;
+}
+
+
+@media all and (min-width:60px) and (max-width:500px){
+    .link-box{
+        display: none
+    } 
+    .mob-nav{
+        display: block;
+        cursor: pointer;
+    }
+    .mob-link{
+        background: #fff;
+        position: absolute;
+        right: 10px;
+    }
+    .mob-link h4{
+      border:1px solid black ;
+      padding:7px 10px;
+      margin: 0;
+    }
+
+}
