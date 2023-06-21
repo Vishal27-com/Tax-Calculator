@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import HRA from '../Pages/HRA'
-import AdvTax from '../Pages/AdvTax'
+import HRA from '../Pages/HRA/HRA'
+import AdvTax from '../Pages/AdvTax/AdvTax'
 
 const AllRoutes = () => {
   return (
